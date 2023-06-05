@@ -1,0 +1,12 @@
+D:\IDE\CSharp\chat\ChatHost\bin\Debug\ChatHost.exe.config
+D:\IDE\CSharp\chat\ChatHost\bin\Debug\ChatHost.exe
+D:\IDE\CSharp\chat\ChatHost\bin\Debug\ChatHost.pdb
+D:\IDE\CSharp\chat\ChatHost\bin\Debug\ChatWcf.dll
+D:\IDE\CSharp\chat\ChatHost\bin\Debug\ChatWcf.pdb
+D:\IDE\CSharp\chat\ChatHost\bin\Debug\ChatWcf.dll.config
+D:\IDE\CSharp\chat\ChatHost\obj\Debug\ChatHost.csproj.AssemblyReference.cache
+D:\IDE\CSharp\chat\ChatHost\obj\Debug\ChatHost.csproj.SuggestedBindingRedirects.cache
+D:\IDE\CSharp\chat\ChatHost\obj\Debug\ChatHost.csproj.CoreCompileInputs.cache
+D:\IDE\CSharp\chat\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
+D:\IDE\CSharp\chat\ChatHost\obj\Debug\ChatHost.exe
+D:\IDE\CSharp\chat\ChatHost\obj\Debug\ChatHost.pdb
