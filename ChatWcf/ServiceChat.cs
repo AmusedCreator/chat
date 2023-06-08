@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -16,6 +18,7 @@ namespace wcf_chat
 
         public int Connect(string name)
         {
+            string message;
             ServerUser user = new ServerUser()
             {
                 ID = nextId,
@@ -25,8 +28,17 @@ namespace wcf_chat
             nextId++;
 
             SendMsg("| <" + user.Name + ">" + " connected", 0);
+
             users.Add(user);
-            
+
+
+            using (FileStream fs = new FileStream("logs.txt", FileMode.Append, FileAccess.Write))
+            {
+                byte[] logmsg = Encoding.Default.GetBytes("|" + DateTime.Now.ToShortTimeString() +
+                                                          "| <" + user.Name + ">" + " CONNECTED" + "\n");
+                fs.Write(logmsg, 0, logmsg.Length);
+            }
+
             return user.ID;
         }
 
@@ -36,7 +48,15 @@ namespace wcf_chat
             if (user != null)
             {
                 users.Remove(user);
+
                 SendMsg("| <" + user.Name + ">" + " disconnected", 0);
+
+                using (FileStream fs = new FileStream("logs.txt", FileMode.Append, FileAccess.Write))
+                {
+                    byte[] logmsg = Encoding.Default.GetBytes("|" + DateTime.Now.ToShortTimeString() +
+                                                              "| <" + user.Name + ">" + " DISCONNECTED" + "\n");
+                    fs.Write(logmsg, 0, logmsg.Length);
+                }
             }
         }
 
@@ -44,7 +64,7 @@ namespace wcf_chat
         {
             foreach (var item in users)
             {
-                string answer = "|"+DateTime.Now.ToShortTimeString();
+                string answer = "|" + DateTime.Now.ToShortTimeString();
 
                 var user = users.FirstOrDefault(i => i.ID == id);
                 if (user != null)
@@ -53,6 +73,13 @@ namespace wcf_chat
                 }
 
                 answer += msg;
+
+                using (FileStream fs = new FileStream("logs.txt", FileMode.Append, FileAccess.Write))
+                {
+                    byte[] logmsg = Encoding.Default.GetBytes(answer + "\n");
+                    fs.Write(logmsg, 0, logmsg.Length);
+                }
+
                 item.operationContext.GetCallbackChannel<IServerChatCallback>().MsgCallback(answer);
             }
         }

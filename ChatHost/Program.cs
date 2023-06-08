@@ -15,10 +15,20 @@ namespace ChatHost
             {
                 host.Open();
                 Console.WriteLine("Host started...");
-                //q: как записывать в логи?
-                //a: 
+                Console.WriteLine("Logs will be saved in logs.txt");
+                Console.WriteLine("Write 'exit' to stop host");
+                if(Console.ReadLine() == "exit" || Console.ReadLine() == "Exit" || Console.ReadLine() == "EXIT")
+                {
+                    host.Close();
+                    return;
+                }
                 Console.ReadLine();
             }
+        }
+
+        public void Logs(string msg)
+        {
+            Console.WriteLine(msg);
         }
     }
 }

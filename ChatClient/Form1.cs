@@ -73,16 +73,22 @@ namespace ChatClient
         {
             DisconnectUser();
         }
-
-
-        private void MessageBox_KeyDown(object sender, KeyEventArgs e)
+        
+        private void button1_Click(object sender, EventArgs e)
         {
-            if(e.KeyCode == Keys.Enter){
-                if (client != null)
-                {
-                    client.SendMsg(MessageBox.Text, ID);
-                    MessageBox.Text = "";
-                }
+            if (client != null)
+            {
+                client.SendMsg(MessageBox.Text, ID);
+                    
+                MessageBox.Text = "";
+            }
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1_Click(sender, e);
             }
         }
     }
