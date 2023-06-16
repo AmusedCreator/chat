@@ -139,5 +139,8 @@
     <ItemGroup>
       <WCFMetadataStorage Include="Connected Services\ServiceChat" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="Resources\free_icon_right_arrow_724954.png" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,37 @@
+|18:09| <Имя пользователя> CONNECTED
+|18:11| <Имя пользователя> CONNECTED
+|18:12| <Имя пользователя> DISCONNECTED
+|18:12| <u1> CONNECTED
+|18:13| <u2> connected
+|18:13| <u2> CONNECTED
+|18:13| <u1> disconnected
+|18:13| <u1> DISCONNECTED
+|18:13| <u1> connected
+|18:13| <u1> CONNECTED
+|18:13| <u2> disconnected
+|18:13| <u2> DISCONNECTED
+|18:18| <u1> CONNECTED
+|18:18| <u1> f
+|18:18| <u2> connected
+|18:18| <u2> CONNECTED
+|18:18| <u2> disconnected
+|18:18| <u2> DISCONNECTED
+|18:18| <u2> connected
+|18:18| <u2> CONNECTED
+|18:19| <u1> disconnected
+|18:19| <u1> DISCONNECTED
+|18:19| <u2> DISCONNECTED
+|18:21| <u1> CONNECTED
+|18:21| <u2> connected
+|18:21| <u2> CONNECTED
+|18:21| <u2> disconnected
+|18:21| <u2> DISCONNECTED
+|18:21| <u2> connected
+|18:21| <u2> CONNECTED
+|18:21| <u1> disconnected
+|18:21| <u1> DISCONNECTED
+|18:21| <u1> connected
+|18:21| <u1> CONNECTED
+|18:21| <u2> disconnected
+|18:21| <u2> DISCONNECTED
+|18:21| <u1> DISCONNECTED

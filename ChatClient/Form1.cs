@@ -23,16 +23,26 @@ namespace ChatClient
             InitializeComponent();
         }
 
+        void UpdateUsers()
+        {
+            if (client != null)
+            {
+                string[] users = client.GetUsers();
+                UsersList.Items.Clear();
+                UsersList.Items.AddRange(users);
+            }
+        }
+        
         void ConnectUser()
         {
             if (!isConnected)
             {
                 client = new ServiceChatClient(new System.ServiceModel.InstanceContext(this));
                 
-
                 ID = client.Connect(NameBox.Text);
                 NameBox.Enabled = false;
                 isConnected = true;
+                UpdateUsers();
             }
         }
 
@@ -44,6 +54,8 @@ namespace ChatClient
                 client = null;
                 NameBox.Enabled = true;
                 isConnected = false;
+                UpdateUsers();
+
             }
         }
 

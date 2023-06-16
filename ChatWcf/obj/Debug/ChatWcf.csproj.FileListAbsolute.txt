@@ -5,3 +5,10 @@ D:\IDE\CSharp\chat\ChatWcf\obj\Debug\ChatWcf.csproj.AssemblyReference.cache
 D:\IDE\CSharp\chat\ChatWcf\obj\Debug\ChatWcf.csproj.CoreCompileInputs.cache
 D:\IDE\CSharp\chat\ChatWcf\obj\Debug\ChatWcf.dll
 D:\IDE\CSharp\chat\ChatWcf\obj\Debug\ChatWcf.pdb
+C:\csharp\chat\ChatWcf\bin\Debug\ChatWcf.dll.config
+C:\csharp\chat\ChatWcf\bin\Debug\ChatWcf.dll
+C:\csharp\chat\ChatWcf\bin\Debug\ChatWcf.pdb
+C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.csproj.AssemblyReference.cache
+C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.csproj.CoreCompileInputs.cache
+C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.dll
+C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.pdb

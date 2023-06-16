@@ -13,22 +13,24 @@ namespace ChatHost
         {
             using (var host = new ServiceHost(typeof(wcf_chat.ServiceChat)))
             {
+                string exit;
+                
                 host.Open();
                 Console.WriteLine("Host started...");
                 Console.WriteLine("Logs will be saved in logs.txt");
                 Console.WriteLine("Write 'exit' to stop host");
-                if(Console.ReadLine() == "exit" || Console.ReadLine() == "Exit" || Console.ReadLine() == "EXIT")
+                exit = Console.ReadLine().ToLower();
+                
+                if(exit == "exit")
                 {
                     host.Close();
+                    Console.WriteLine("Host stopped...");
+                    Console.WriteLine("Press any key to close");
+                    Console.ReadLine();
                     return;
                 }
                 Console.ReadLine();
             }
-        }
-
-        public void Logs(string msg)
-        {
-            Console.WriteLine(msg);
         }
     }
 }

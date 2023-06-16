@@ -18,7 +18,6 @@ namespace wcf_chat
 
         public int Connect(string name)
         {
-            string message;
             ServerUser user = new ServerUser()
             {
                 ID = nextId,
@@ -82,6 +81,18 @@ namespace wcf_chat
 
                 item.operationContext.GetCallbackChannel<IServerChatCallback>().MsgCallback(answer);
             }
+        }
+
+        //метод для получения списка подключенных пользователей
+        public string[] GetUsers()
+        {
+            string[] usersList = new string[users.Count];
+            for (int i = 0; i < users.Count; i++)
+            {
+                usersList[i] = users[i].Name;
+            }
+            
+            return usersList;
         }
     }
 }

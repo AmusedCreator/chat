@@ -19,6 +19,9 @@ namespace wcf_chat
 
         [OperationContract(IsOneWay = true)]
         void SendMsg(string msg, int id);
+        
+        [OperationContract]
+        string[] GetUsers();
 
     }
 
