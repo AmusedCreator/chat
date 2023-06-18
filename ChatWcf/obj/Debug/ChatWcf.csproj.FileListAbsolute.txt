@@ -12,3 +12,10 @@ C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.csproj.AssemblyReference.cache
 C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.csproj.CoreCompileInputs.cache
 C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.dll
 C:\csharp\chat\ChatWcf\obj\Debug\ChatWcf.pdb
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\bin\Debug\ChatWcf.dll.config
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\bin\Debug\ChatWcf.dll
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\bin\Debug\ChatWcf.pdb
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\obj\Debug\ChatWcf.csproj.AssemblyReference.cache
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\obj\Debug\ChatWcf.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\obj\Debug\ChatWcf.dll
+C:\Users\Даниил\Source\Repos\chat\ChatWcf\obj\Debug\ChatWcf.pdb

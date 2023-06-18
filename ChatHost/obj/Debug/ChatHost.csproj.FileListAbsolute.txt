@@ -22,3 +22,15 @@ C:\csharp\chat\ChatHost\obj\Debug\ChatHost.csproj.CoreCompileInputs.cache
 C:\csharp\chat\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
 C:\csharp\chat\ChatHost\obj\Debug\ChatHost.exe
 C:\csharp\chat\ChatHost\obj\Debug\ChatHost.pdb
+C:\Users\Даниил\Source\Repos\chat\ChatHost\bin\Debug\ChatHost.exe.config
+C:\Users\Даниил\Source\Repos\chat\ChatHost\bin\Debug\ChatHost.exe
+C:\Users\Даниил\Source\Repos\chat\ChatHost\bin\Debug\ChatHost.pdb
+C:\Users\Даниил\Source\Repos\chat\ChatHost\bin\Debug\ChatWcf.dll
+C:\Users\Даниил\Source\Repos\chat\ChatHost\bin\Debug\ChatWcf.pdb
+C:\Users\Даниил\Source\Repos\chat\ChatHost\bin\Debug\ChatWcf.dll.config
+C:\Users\Даниил\Source\Repos\chat\ChatHost\obj\Debug\ChatHost.csproj.AssemblyReference.cache
+C:\Users\Даниил\Source\Repos\chat\ChatHost\obj\Debug\ChatHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\Даниил\Source\Repos\chat\ChatHost\obj\Debug\ChatHost.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\Source\Repos\chat\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
+C:\Users\Даниил\Source\Repos\chat\ChatHost\obj\Debug\ChatHost.exe
+C:\Users\Даниил\Source\Repos\chat\ChatHost\obj\Debug\ChatHost.pdb

@@ -35,3 +35,114 @@
 |18:21| <u2> disconnected
 |18:21| <u2> DISCONNECTED
 |18:21| <u1> DISCONNECTED
+|19:04| <123> CONNECTED
+|19:04| <Console> Вы решили сыграть в виселицу, у вас будет 6 попыток чтобы отгадать загаданное компьютером слово
+Загаданное слово: ____________
+|19:07| <123> DISCONNECTED
+|19:08| <1> CONNECTED
+|19:08| <Console> Вы решили сыграть в виселицу, у вас будет 6 попыток чтобы отгадать загаданное компьютером слово
+Загаданное слово: ______
+|19:11| <1> DISCONNECTED
+|19:12| <1> CONNECTED
+|19:12| <1> edcdc
+|19:13| <1> DISCONNECTED
+|19:16| <1> CONNECTED
+|19:16| <1> mdewf
+ed
+|19:18| <1> f
+|19:18| <1> DISCONNECTED
+|19:21| <2> CONNECTED
+|19:26| <2> DISCONNECTED
+|19:26| <1> CONNECTED
+|19:26| <1> xd
+|19:27| <1> xd
+|19:30| <1> DISCONNECTED
+|19:34| <1> CONNECTED
+|19:36| <1> DISCONNECTED
+|19:40| <1> CONNECTED
+|19:40| <1> dsse
+|19:45| <1> DISCONNECTED
+|20:16| <1> CONNECTED
+|20:16| <1> xdxdxd
+|20:16| <1> i'm 48 year old man from Somalia
+|20:18| <1> DISCONNECTED
+|20:19| <1> CONNECTED
+|20:19| <1> xd
+|20:20| <1> DISCONNECTED
+|20:22| <Имя пользователя> CONNECTED
+|20:23| <Имя пользователя> DISCONNECTED
+|20:25| <1> CONNECTED
+|20:25| <1> xd
+|20:26| <Имя пользователя> CONNECTED
+|20:26| <Имя пользователя> xd
+|20:26| <Имя пользователя> DISCONNECTED
+|20:26| <Имя пользователя> CONNECTED
+|20:26| <Имя пользователя> DISCONNECTED
+|20:26| <Имя пользователя> CONNECTED
+|20:26| <Имя пользователя> xd
+|20:32| <1> CONNECTED
+|20:32| <1> xd
+|20:33| <Имя пользователя> CONNECTED
+|20:34| <Имя пользователя> DISCONNECTED
+|20:59| <1> CONNECTED
+|20:59| <1> xd
+|21:07| <1> DISCONNECTED
+|21:10| <1> CONNECTED
+|21:10| <1> xd
+|21:11| <1> DISCONNECTED
+|21:14| <Имя пользователя> CONNECTED
+|21:17| <Имя пользователя> DISCONNECTED
+|21:19| <Имя пользователя> CONNECTED
+|21:19| <Имя пользователя> hello
+|21:19| <Имя пользователя> i'm 48 year old man from Somalia
+|21:21| <Имя пользователя> DISCONNECTED
+|16:26| <1> CONNECTED
+|16:26| <1> xd
+|16:26| <Имя пользователя> connected
+|16:26| <Имя пользователя> CONNECTED
+|16:26| <Имя пользователя> xd
+|16:26| <Имя пользователя> xd
+|16:28| <Имя пользователя> disconnected
+|16:28| <Имя пользователя> DISCONNECTED
+|16:28| <1> DISCONNECTED
+|16:41| <1> CONNECTED
+|16:41| <2> connected
+|16:41| <2> CONNECTED
+|16:42| <1> xd
+|16:42| <1> xd
+|16:44| <1> disconnected
+|16:44| <1> DISCONNECTED
+|16:45| <2> DISCONNECTED
+|16:50| <1> CONNECTED
+|16:50| <2> connected
+|16:50| <2> CONNECTED
+|16:51| <2> disconnected
+|19:00| <1> CONNECTED
+|19:00| <2> connected
+|19:00| <2> CONNECTED
+|19:00| <1> disconnected
+|19:00| <1> DISCONNECTED
+|19:01| <2> DISCONNECTED
+|19:38| <1> CONNECTED
+|19:38| <2> connected
+|19:38| <2> CONNECTED
+|19:44| <1> disconnected
+|19:44| <1> DISCONNECTED
+|19:44| <2> DISCONNECTED
+|19:45| <1> CONNECTED
+|19:45| <2> connected
+|19:45| <2> CONNECTED
+|19:45| <2> disconnected
+|19:45| <2> DISCONNECTED
+|19:49| <1> CONNECTED
+|19:49| <2Имя пользователя> connected
+|19:49| <2Имя пользователя> CONNECTED
+|20:02| <1> CONNECTED
+|20:03| <2> connected
+|20:03| <2> CONNECTED
+|20:39| <1> CONNECTED
+|20:39| <Имя пользователя> connected
+|20:39| <Имя пользователя> CONNECTED
+|20:40| <1> disconnected
+|20:40| <1> DISCONNECTED
+|20:42| <Имя пользователя> DISCONNECTED

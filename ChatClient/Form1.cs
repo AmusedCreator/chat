@@ -55,7 +55,6 @@ namespace ChatClient
                 NameBox.Enabled = true;
                 isConnected = false;
                 UpdateUsers();
-
             }
         }
 
@@ -101,6 +100,14 @@ namespace ChatClient
             if (e.KeyCode == Keys.Enter)
             {
                 button1_Click(sender, e);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (client != null)
+            {
+                client.PlayHangman();
             }
         }
     }

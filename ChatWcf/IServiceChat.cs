@@ -23,6 +23,8 @@ namespace wcf_chat
         [OperationContract]
         string[] GetUsers();
 
+        [OperationContract]
+        void PlayHangman();
     }
 
     public interface IServerChatCallback
