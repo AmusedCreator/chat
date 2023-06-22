@@ -146,3 +146,167 @@ ed
 |20:40| <1> disconnected
 |20:40| <1> DISCONNECTED
 |20:42| <Имя пользователя> DISCONNECTED
+|21:09| <memem> CONNECTED
+|21:09| <momom> connected
+|21:09| <momom> CONNECTED
+|21:19| <memem> хочу ввести букву
+|21:19| <memem> хочу ввести букву
+|14:02| <Имя пользователя> CONNECTED
+|14:03| <Имя пользователя> DISCONNECTED
+|14:19| <Имя пользователя> CONNECTED
+|16:27| <boba> CONNECTED
+|16:27| <biba> connected
+|16:27| <biba> CONNECTED
+|16:28| <boba> d
+
+|16:28| <boba> d
+
+|16:28| <biba> disconnected
+|16:28| <biba> DISCONNECTED
+|16:28| <boba> DISCONNECTED
+|16:29| <2> CONNECTED
+|16:29| <1> connected
+|16:29| <1> CONNECTED
+|16:29| <1> disconnected
+|16:29| <1> DISCONNECTED
+|16:29| <2> DISCONNECTED
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> connected
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> disconnected
+|16:30| <Имя пользователя> DISCONNECTED
+|16:30| <Имя пользователя> connected
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> disconnected
+|16:30| <Имя пользователя> DISCONNECTED
+|16:30| <Имя пользователя> DISCONNECTED
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> connected
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> disconnected
+|16:30| <Имя пользователя> DISCONNECTED
+|16:30| <Имя пользователя> connected
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> disconnected
+|16:30| <Имя пользователя> DISCONNECTED
+|16:30| <Имя пользователя> connected
+|16:30| <Имя пользователя> CONNECTED
+|16:30| <Имя пользователя> disconnected
+|16:30| <Имя пользователя> DISCONNECTED
+|16:30| <Имя пользователя> DISCONNECTED
+|16:36| <biba> CONNECTED
+|16:37| <biba> DISCONNECTED
+|16:38| <boba> CONNECTED
+|16:38| <boba> DISCONNECTED
+|16:39| <Имя пользователя> CONNECTED
+|16:39| <Имя пользователя> DISCONNECTED
+|16:42| <Имя пользователя> CONNECTED
+|16:43| <Имя пользователя> connected
+|16:45| <Имя пользователя> connected
+|16:46| <Имя пользователя> CONNECTED
+|16:46| <Имя пользователя> connected
+|16:46| <Имя пользователя> CONNECTED
+|16:47| <Имя пользователя> gh
+|16:47| <Имя пользователя> gh
+|16:47| <Имя пользователя> h
+|16:47| <Имя пользователя> h
+|16:51| <Имя пользователя> connected
+|16:51| <Имя пользователя> connected
+|16:51| <Имя пользователя> connected
+|17:29| <Имя пользователя> connected
+|17:29| <Имя пользователя> connected
+|17:29| <Имя пользователя> connected
+|17:30| <Имя пользователя> CONNECTED
+|17:30| <sss> connected
+|17:30| <sss> CONNECTED
+|17:31| <sss> disconnected
+|17:31| <sss> DISCONNECTED
+|17:31| <sss> connected
+|17:31| <sss> CONNECTED
+|17:31| <Имя пользователя> disconnected
+|17:34| <Имя пользователя> connected
+|17:35| <Имя пользователя> connected
+|17:35| <Имя пользователя> connected
+|17:35| <s> connected
+|17:36| <Имя пользователя> CONNECTED
+|17:36| <Имя пользователя> DISCONNECTED
+|17:46| <biba> CONNECTED
+|17:46| <biba> sss
+
+|17:46| <boba> connected
+|17:46| <boba> CONNECTED
+|17:46| <boba> sss
+
+|17:46| <boba> sss
+
+|17:46| <boba> disconnected
+|17:46| <boba> DISCONNECTED
+|17:46| <biba> DISCONNECTED
+|17:55| <ABOBA> CONNECTED
+|17:55| <Biba> connected
+|17:55| <Biba> CONNECTED
+|17:55| <Biba> disconnected
+|17:55| <Biba> DISCONNECTED
+|17:55| <ABOBA> DISCONNECTED
+|17:56| <Имя пользователя> CONNECTED
+|17:56| <Имя пользователя> connected
+|17:56| <Имя пользователя> CONNECTED
+|17:56| <Имя пользователя> sss
+|17:56| <Имя пользователя> sss
+|17:56| <Имя пользователя> ddd
+|17:56| <Имя пользователя> ddd
+|17:56| <Имя пользователя> disconnected
+|17:56| <Имя пользователя> DISCONNECTED
+|18:00| <Имя пользователя> DISCONNECTED
+|18:01| <1> CONNECTED
+|18:01| <2> connected
+|18:01| <2> CONNECTED
+|18:01| <1> disconnected
+|18:01| <1> DISCONNECTED
+|18:01| <1> connected
+|18:01| <1> CONNECTED
+|18:01| <2> disconnected
+|18:01| <2> DISCONNECTED
+|18:01| <2> connected
+|18:01| <2> CONNECTED
+|18:01| <2> disconnected
+|18:01| <2> DISCONNECTED
+|18:01| <2> connected
+|18:01| <2> CONNECTED
+|18:01| <2> disconnected
+|18:01| <2> DISCONNECTED
+|18:01| <2> connected
+|18:01| <2> CONNECTED
+|18:01| <2> disconnected
+|18:01| <2> DISCONNECTED
+|18:01| <2> connected
+|18:01| <2> CONNECTED
+|18:01| <2> disconnected
+|18:01| <2> DISCONNECTED
+|18:01| <1> DISCONNECTED
+|18:01| <1> CONNECTED
+|18:01| <1> DISCONNECTED
+|18:01| <1> CONNECTED
+|18:01| <1> DISCONNECTED
+|18:01| <1> CONNECTED
+|18:01| <1> DISCONNECTED
+|18:01| <2> CONNECTED
+|18:01| <2> DISCONNECTED
+|18:01| <1> CONNECTED
+|18:01| <1> DISCONNECTED
+|18:01| <1> CONNECTED
+|18:01| <1> DISCONNECTED
+|18:03| <biba> CONNECTED
+|18:03| <boba> connected
+|18:03| <boba> CONNECTED
+|18:03| <boba> disconnected
+|18:03| <boba> DISCONNECTED
+|18:03| <boba> connected
+|18:03| <boba> CONNECTED
+|18:03| <biba> disconnected
+|18:03| <biba> DISCONNECTED
+|18:03| <biba> connected
+|18:03| <biba> CONNECTED
+|18:04| <biba> disconnected
+|18:04| <biba> DISCONNECTED
+|18:05| <boba> DISCONNECTED

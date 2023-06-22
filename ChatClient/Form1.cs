@@ -5,8 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 using ChatClient.ServiceChat;
 
 
@@ -23,38 +25,51 @@ namespace ChatClient
             InitializeComponent();
         }
 
-        void UpdateUsers()
+        
+        async Task UpdateUsers()
         {
-            if (client != null)
+            while (true)
             {
-                string[] users = client.GetUsers();
-                UsersList.Items.Clear();
-                UsersList.Items.AddRange(users);
+                if (client != null)
+                {
+                    if(client.GetUsers().Length != UsersList.Items.Count)
+                    {
+                        string[] users = client.GetUsers();
+                        UsersList.Items.Clear();
+                        UsersList.Items.AddRange(users);
+                    }
+                }
+                await Task.Delay(1000);
             }
         }
-        
+
         void ConnectUser()
         {
             if (!isConnected)
             {
                 client = new ServiceChatClient(new System.ServiceModel.InstanceContext(this));
                 
+                tokenSource2 = new CancellationTokenSource();
+                Task.Run(UpdateUsers, tokenSource2.Token);
+
                 ID = client.Connect(NameBox.Text);
                 NameBox.Enabled = false;
                 isConnected = true;
-                UpdateUsers();
             }
         }
 
+        CancellationTokenSource tokenSource2;
         void DisconnectUser()
         {
             if (isConnected)
             {
+                // UpdateUsers();
                 client.Disconnect(ID);
                 client = null;
                 NameBox.Enabled = true;
                 isConnected = false;
-                UpdateUsers();
+                tokenSource2.Cancel();
+                UsersList.Items.Clear();
             }
         }
 
@@ -84,13 +99,13 @@ namespace ChatClient
         {
             DisconnectUser();
         }
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (client != null)
             {
                 client.SendMsg(MessageBox.Text, ID);
-                    
+
                 MessageBox.Text = "";
             }
         }
@@ -103,14 +118,22 @@ namespace ChatClient
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (client != null)
-            {
-                client.PlayHangman();
-            }
-        }
+        // private void button2_Click(object sender, EventArgs e)
+        // {
+        //     if (client != null)
+        //     {
+        //         client[currClient].PlayHangman();
+        //     }
+        // }
+
+        // private static TextBox _boba;
+        // public static TextBox GetMessageBox
+        // {
+        //     get => _boba;
+        // }
+        // private void button2_Click_1(object sender, EventArgs e)
+        // {
+        //     throw new System.NotImplementedException();
+        // }
     }
 }
-
-

@@ -21,7 +21,7 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8301/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://95.24.206.28:8301/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata />
   <Extensions />

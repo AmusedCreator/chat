@@ -19,12 +19,18 @@ namespace wcf_chat
 
         [OperationContract(IsOneWay = true)]
         void SendMsg(string msg, int id);
-        
-        [OperationContract]
-        string[] GetUsers();
+
+        // [OperationContract]
+        // void SetFile(string filename, byte[] file, int id);
+        //
+        // [OperationContract]
+        // void GetFile(string filename, int id);
 
         [OperationContract]
-        void PlayHangman();
+        string[] GetUsers();
+        //
+        // [OperationContract]
+        // void PlayHangman();
     }
 
     public interface IServerChatCallback
