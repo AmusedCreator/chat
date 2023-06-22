@@ -83,16 +83,6 @@ namespace wcf_chat
                 item.operationContext.GetCallbackChannel<IServerChatCallback>().MsgCallback(answer);
             }
         }
-
-        // public void SetFile(string filename, byte[] file, int id)
-        // {
-        //     
-        // }
-        //
-        // public void GetFile(string filename, int id)
-        // {
-        //     throw new NotImplementedException();
-        // }
         
         public string[] GetUsers()
         {

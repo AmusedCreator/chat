@@ -41,34 +41,39 @@
             // NameBox
             // 
             this.NameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameBox.Location = new System.Drawing.Point(17, 12);
+            this.NameBox.Location = new System.Drawing.Point(23, 15);
+            this.NameBox.Margin = new System.Windows.Forms.Padding(4);
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(346, 26);
+            this.NameBox.Size = new System.Drawing.Size(460, 30);
             this.NameBox.TabIndex = 0;
             this.NameBox.Text = "Имя пользователя";
             // 
             // ChatBox
             // 
             this.ChatBox.FormattingEnabled = true;
-            this.ChatBox.Location = new System.Drawing.Point(172, 43);
+            this.ChatBox.ItemHeight = 16;
+            this.ChatBox.Location = new System.Drawing.Point(218, 53);
+            this.ChatBox.Margin = new System.Windows.Forms.Padding(4);
             this.ChatBox.Name = "ChatBox";
-            this.ChatBox.Size = new System.Drawing.Size(615, 290);
+            this.ChatBox.Size = new System.Drawing.Size(830, 356);
             this.ChatBox.TabIndex = 2;
             // 
             // MessageBox
             // 
-            this.MessageBox.Location = new System.Drawing.Point(17, 342);
+            this.MessageBox.Location = new System.Drawing.Point(23, 421);
+            this.MessageBox.Margin = new System.Windows.Forms.Padding(4);
             this.MessageBox.Multiline = true;
             this.MessageBox.Name = "MessageBox";
-            this.MessageBox.Size = new System.Drawing.Size(669, 96);
+            this.MessageBox.Size = new System.Drawing.Size(891, 117);
             this.MessageBox.TabIndex = 3;
             // 
             // Button
             // 
             this.Button.BackColor = System.Drawing.Color.Green;
-            this.Button.Location = new System.Drawing.Point(369, 12);
+            this.Button.Location = new System.Drawing.Point(492, 15);
+            this.Button.Margin = new System.Windows.Forms.Padding(4);
             this.Button.Name = "Button";
-            this.Button.Size = new System.Drawing.Size(119, 26);
+            this.Button.Size = new System.Drawing.Size(159, 32);
             this.Button.TabIndex = 5;
             this.Button.Text = "Connect";
             this.Button.UseVisualStyleBackColor = false;
@@ -79,9 +84,10 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.BackgroundImage = global::ChatClient.Properties.Resources.free_icon_right_arrow_724954;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(712, 359);
+            this.button1.Location = new System.Drawing.Point(949, 442);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 58);
+            this.button1.Size = new System.Drawing.Size(76, 71);
             this.button1.TabIndex = 6;
             this.button1.Text = "\r\n\r\n";
             this.button1.UseVisualStyleBackColor = false;
@@ -89,27 +95,31 @@
             // 
             // UsersList
             // 
+            this.UsersList.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsersList.FormattingEnabled = true;
-            this.UsersList.Location = new System.Drawing.Point(17, 56);
+            this.UsersList.ItemHeight = 24;
+            this.UsersList.Location = new System.Drawing.Point(23, 93);
+            this.UsersList.Margin = new System.Windows.Forms.Padding(4);
             this.UsersList.Name = "UsersList";
-            this.UsersList.Size = new System.Drawing.Size(149, 277);
+            this.UsersList.Size = new System.Drawing.Size(187, 316);
             this.UsersList.TabIndex = 8;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(17, 40);
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(19, 59);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 13);
+            this.label1.Size = new System.Drawing.Size(199, 30);
             this.label1.TabIndex = 9;
             this.label1.Text = "Список пользователей:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.UsersList);
             this.Controls.Add(this.button1);
@@ -118,11 +128,13 @@
             this.Controls.Add(this.ChatBox);
             this.Controls.Add(this.NameBox);
             this.Location = new System.Drawing.Point(15, 15);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.Label label1;

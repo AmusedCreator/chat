@@ -19,6 +19,7 @@ namespace ChatClient
         bool isConnected = false;
         ServiceChatClient client;
         int ID;
+        CancellationTokenSource tokenSource2;
 
         public Form1()
         {
@@ -44,30 +45,48 @@ namespace ChatClient
         }
 
         void ConnectUser()
-        {
+        { 
             if (!isConnected)
             {
                 client = new ServiceChatClient(new System.ServiceModel.InstanceContext(this));
-                
+
                 tokenSource2 = new CancellationTokenSource();
                 Task.Run(UpdateUsers, tokenSource2.Token);
 
-                ID = client.Connect(NameBox.Text);
-                NameBox.Enabled = false;
-                isConnected = true;
+                bool uniqueNickname = true;
+                for (int i = 0; i < client.GetUsers().Length; i++)
+                {
+                        if (client.GetUsers()[i].Equals(NameBox.Text)) { uniqueNickname = false; break; }
+                }
+
+                if (uniqueNickname)
+                {
+                    ID = client.Connect(NameBox.Text);
+                    NameBox.Enabled = false;
+                    isConnected = true;
+                    
+                    Button.Text = "Disconnect";
+                    Button.BackColor = Color.Maroon;
+                    MsgCallback("|" + DateTime.Now.ToShortTimeString() + "| <Console> You have succesfully connected");
+                }
+
+                else
+                {
+                    MsgCallback("This nickname is already in use. Try another one.");
+                }
             }
         }
 
-        CancellationTokenSource tokenSource2;
         void DisconnectUser()
         {
             if (isConnected)
             {
-                // UpdateUsers();
                 client.Disconnect(ID);
                 client = null;
                 NameBox.Enabled = true;
                 isConnected = false;
+                MsgCallback("|" + DateTime.Now.ToShortTimeString() + "| <Console> You have succesfully disconnected");
+
                 tokenSource2.Cancel();
                 UsersList.Items.Clear();
             }
@@ -84,8 +103,6 @@ namespace ChatClient
             else
             {
                 ConnectUser();
-                Button.Text = "Disconnect";
-                Button.BackColor = Color.Maroon;
             }
         }
 
@@ -117,23 +134,5 @@ namespace ChatClient
                 button1_Click(sender, e);
             }
         }
-
-        // private void button2_Click(object sender, EventArgs e)
-        // {
-        //     if (client != null)
-        //     {
-        //         client[currClient].PlayHangman();
-        //     }
-        // }
-
-        // private static TextBox _boba;
-        // public static TextBox GetMessageBox
-        // {
-        //     get => _boba;
-        // }
-        // private void button2_Click_1(object sender, EventArgs e)
-        // {
-        //     throw new System.NotImplementedException();
-        // }
     }
 }

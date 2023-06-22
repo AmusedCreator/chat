@@ -310,3 +310,111 @@ ed
 |18:04| <biba> disconnected
 |18:04| <biba> DISCONNECTED
 |18:05| <boba> DISCONNECTED
+|18:35| <Имя пользователя> CONNECTED
+|18:35| <Имя пользователя> connected
+|18:35| <Имя пользователя> CONNECTED
+|18:35| <Имя пользователя> disconnected
+|18:35| <Имя пользователя> DISCONNECTED
+|18:35| <Имя пользователя> connected
+|18:35| <Имя пользователя> CONNECTED
+|18:35| <Имя пользователя> disconnected
+|18:35| <Имя пользователя> DISCONNECTED
+|18:35| <Имя пользователя> DISCONNECTED
+|18:35| <Имя пользователя> CONNECTED
+|18:36| <Имя пользователя> DISCONNECTED
+|18:41| <Имя пользователя> CONNECTED
+|18:41| <Имя пользователя> connected
+|18:41| <Имя пользователя> CONNECTED
+|18:41| <Имя пользователя> disconnected
+|18:41| <Имя пользователя> DISCONNECTED
+|18:41| <Имя пользователя> DISCONNECTED
+|18:42| <Имя пользователя> CONNECTED
+|18:43| <Имя пользователя> connected
+|18:43| <Имя пользователя> CONNECTED
+|18:43| <Имя пользователя> disconnected
+|18:43| <Имя пользователя> DISCONNECTED
+|18:43| <Имя пользователя> connected
+|18:43| <Имя пользователя> CONNECTED
+|18:43| <Имя пользователя> disconnected
+|18:43| <Имя пользователя> DISCONNECTED
+|18:43| <Имя пользователя> connected
+|18:43| <Имя пользователя> CONNECTED
+|18:43| <Имя пользователя> disconnected
+|18:43| <Имя пользователя> DISCONNECTED
+|18:43| <Имя пользователя> DISCONNECTED
+|18:44| <Имя пользователя> CONNECTED
+|18:45| <Имя пользователя> connected
+|18:45| <Имя пользователя> CONNECTED
+|18:45| <Имя пользователя> disconnected
+|18:45| <Имя пользователя> DISCONNECTED
+|18:45| <Имя пользователя> DISCONNECTED
+|18:47| <Имя пользователя> CONNECTED
+|18:47| <Имя пользователя> connected
+|18:47| <Имя пользователя> CONNECTED
+|18:47| <Имя пользователя> disconnected
+|18:47| <Имя пользователя> DISCONNECTED
+|18:47| <Имя пользователя> DISCONNECTED
+|18:49| <Имя пользователя> CONNECTED
+|18:49| <Имя пользователя> DISCONNECTED
+|18:51| <Имя пользователя> CONNECTED
+|18:51| <Имя пользовател> connected
+|18:51| <Имя пользовател> CONNECTED
+|18:51| <Имя пользовател> disconnected
+|18:51| <Имя пользовател> DISCONNECTED
+|18:51| <Имя пользователя> DISCONNECTED
+|18:54| <Имя пользователя> CONNECTED
+|18:54| <Имя пользователя> DISCONNECTED
+|18:55| <Имя пользователя> CONNECTED
+|18:55| <Имя пользователя> DISCONNECTED
+|18:56| <Имя пользователя> CONNECTED
+|18:56| <Имя пользователя> DISCONNECTED
+|18:56| <Имя пользователя> CONNECTED
+|18:56| <Имя пользователя> DISCONNECTED
+|18:57| <Имя пользователя> CONNECTED
+|18:58| <Имя пользовател> connected
+|18:58| <Имя пользовател> CONNECTED
+|18:58| <Имя пользовател> disconnected
+|18:58| <Имя пользовател> DISCONNECTED
+|18:58| <Имя пользователя> DISCONNECTED
+|18:58| <Имя пользователя> CONNECTED
+|18:58| <1> connected
+|18:58| <1> CONNECTED
+|18:58| <Имя пользователя> disconnected
+|18:58| <Имя пользователя> DISCONNECTED
+|18:59| <1> DISCONNECTED
+|19:09| <amogus> CONNECTED
+|19:09| <amogus> DISCONNECTED
+|19:10| <Имя пользователя> CONNECTED
+|19:10| <Имя пользователя> DISCONNECTED
+|19:11| <Имя пользователя> CONNECTED
+|19:11| <Имя пользователя> DISCONNECTED
+|19:11| <amogus> CONNECTED
+|19:11| <abigus> connected
+|19:11| <abigus> CONNECTED
+|19:12| <amogus> sus
+|19:12| <amogus> sus
+|19:12| <amogus> disconnected
+|19:12| <amogus> DISCONNECTED
+|19:12| <abigus> DISCONNECTED
+|19:41| <user1> CONNECTED
+|19:44| <user2> connected
+|19:44| <user2> CONNECTED
+|19:46| <user1> disconnected
+|19:46| <user1> DISCONNECTED
+|19:46| <user2> DISCONNECTED
+|19:46| <user1> CONNECTED
+|19:57| <user2> connected
+|19:57| <user2> CONNECTED
+|20:04| <user2> Тестовое сообщение отправленное вторым пользователем
+|20:04| <user2> Тестовое сообщение отправленное вторым пользователем
+|20:05| <user2> disconnected
+|20:05| <user2> DISCONNECTED
+|20:05| <user1> DISCONNECTED
+|20:05| <user1> CONNECTED
+|20:06| <user2> connected
+|20:06| <user2> CONNECTED
+|20:06| <user2> Тестовое сообщение отправленное вторым пользователем
+|20:06| <user2> Тестовое сообщение отправленное вторым пользователем
+|20:30| <user2> disconnected
+|20:30| <user2> DISCONNECTED
+|20:36| <user1> DISCONNECTED
